@@ -18,9 +18,8 @@ None.
 
     - hosts: all
       vars:
-        php_stream_version: "remi-7.4"
+        php_stream_version: "7.3"
       roles:
-        - { role: classyllama.repo-php-remi-modular }
         - { role: classyllama.repo-php-appstream }
 
 ## License
